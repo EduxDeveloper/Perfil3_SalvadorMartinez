@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Perfil3_SalvadorMartinez",
+    "slug": "Perfil3_SalvadorMartinez",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Dragon-Ball-PNG-HD-Image.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#111111",
+        "foregroundImage": "./assets/Dragon-Ball-PNG-HD-Image.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Dragon-Ball-PNG-HD-Image.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#111111",
+          "image": "./assets/Dragon-Ball-PNG-HD-Image.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ]
+    ]
+  }
+}
